@@ -1,5 +1,5 @@
 const root = (req, res) => {
-    res.end('Home page is coming!')
+    res.end('Home page is coming!');
 }
 const text = (req, res) => {
     const param = req.params.param || 'Text' ;

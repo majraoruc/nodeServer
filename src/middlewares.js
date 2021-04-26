@@ -9,4 +9,4 @@ const checkSize = (req, res, next) => {
     }
     next();
 }
-module.exports = { log, checkSize }
+export  { log, checkSize }
